@@ -1,0 +1,11 @@
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+
+print(format(a, ".3f"))
+print(format(b, ".3f"))
+print(format(c, ".3f"))
+print(format(d, ".3f"))
+print(format(e, ".3f"))
