@@ -25,7 +25,7 @@ for i in range(1, n+1):
         ch = [0] * (n + 1)
     arr[i] = count
 
-
+biggest = max(arr)
 for i in range(len(arr)):
-    if arr[i] == max(arr):
+    if arr[i] == biggest:
         print(i, end=' ')
