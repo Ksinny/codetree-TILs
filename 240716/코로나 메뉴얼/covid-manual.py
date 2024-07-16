@@ -11,7 +11,7 @@ if a_cold=="Y" and a_temp>=37:
 if b_cold=="Y" and b_temp>=37:
     cnt += 1
 
-if a_cold=="Y" and a_temp>=37:
+if c_cold=="Y" and c_temp>=37:
     cnt += 1
 
 if cnt>=2:
