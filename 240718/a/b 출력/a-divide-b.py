@@ -1,7 +1,10 @@
-a, b = map(float, input().split())
+a, b = map(int, input().split())
 
-print(a/b, end='')
-for i in range(2, 21):
-    # a *= 10
-    k = int(a//b)
+for i in range(21):
+    k = a//b
+    s = a%b
+    a = s*10
     print(k, end='')
+    
+    if i == 0:
+        print(".", end='')
